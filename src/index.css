@@ -4,12 +4,17 @@
     margin: 0;
 }
 nav {
-    display: block;
-    background-color: blanchedalmond;
-    padding: 10px;
+    display: flex;
+    background-color:blanchedalmond;
+    /* flex-direction: row; */
+    /* height: 100px; */
 }
 nav ul{
+    display: flex;
     list-style: none;
+    flex-direction: row;
+    height: 60px;
+    margin-top: 10px;
 }
 nav li {
     font-size: 20px;
@@ -27,13 +32,23 @@ nav a:hover{
 }
 
 @media (max-width:1024px){
-    nav li {
-        display: block;
+    nav {
+        height: 100vh;
+        width: 150px;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-top: 10px;
     }
 }
 @media (max-width:768px){
-    nav li {
-        display: inline-block;
+    nav {
+        height: 60px;
+        width: 100vw;
+    }
+    nav ul {
+        flex-direction: row;
+        min-width: 100vw;
     }
 }
 
