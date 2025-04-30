@@ -1,6 +1,6 @@
 # HTML CSS Example Project
 
-## Deskripsi - Single Page
+## Deskripsi - Navigation Bar with Flex
 Project ini merupakan latihan CSS dalam membangun website. Saat ini kita membangun website dengan navbar dalam menerapkan media query dengan kondisi dua ukuran layar. Tujuannya adalah untuk membiasakan diri dengan alur kerja pengembangan perangkat lunak.
 
 
