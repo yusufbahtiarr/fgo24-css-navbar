@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: block;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav li {
+    font-size: 20px;
+    padding: 10px;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover{
+    color: #111;
+    font-weight: bold;
+    background-color:bisque;
+}
+
+@media (max-width:1024px){
+    nav li {
+        display: block;
+    }
+}
+@media (max-width:768px){
+    nav li {
+        display: inline-block;
+    }
+}
+
+
